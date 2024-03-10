@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="E2EFlipkart">
+        <methods>
+          <include name="implicitWait"/>
+          <include name="maximize"/>
+          <include name="test"/>
+          <include name="getResult"/>
+          <include name="openURL"/>
+          <include name="endreport"/>
+          <include name="startReport"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- E2EFlipkart -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
